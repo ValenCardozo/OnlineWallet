@@ -74,7 +74,8 @@ export default {
     return {
       tipoMonto: "",
       inputMonto: "",
-      fechaTransaccion: ""
+      fechaTransaccion: "",
+      Test:""
     };
   },
   computed: {
