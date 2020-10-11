@@ -12,7 +12,7 @@
         name="actualizarMontos"
       >
     </div>
-    <div class="flex justify-around w-full h-20 pl-2 bg-white rounded shadow-xl">
+    <div class="flex justify-around w-full h-20 pl-1 bg-white rounded shadow-xl">
       <div class="flex flex-wrap py-2">
         <label class="flex w-full text-black text-lg">
           Tipo
@@ -20,7 +20,7 @@
         <input
           id="tipoMonto"
           v-model="tipoMonto"
-          class="bg-red-500 p-2 w-full h-5 block text-gray-900 text-sm font-bold mb-1 rounded"
+          class="bg-red-500 p-2 w-full h-5 block text-gray-900 text-sm font-bold m-1 rounded"
           type="text"
           name="actualizarTipos"
         >
