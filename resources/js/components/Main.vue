@@ -4,7 +4,7 @@
       <MoneyLimits />
       <InfoInput />
     </div>
-    <div class="flex w-full">
+    <div class="flex w-screen">
       <area-chart :data="{'2017-01-01 00:00:00 -0800': 8, '2017-01-01 00:01:00 -0800': 5}" />
     </div>
   </div>

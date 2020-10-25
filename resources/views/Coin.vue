@@ -1,11 +1,9 @@
 <template>
     <ViewContainer>
-        <h5 class="flex flex-wrap text-center">
-            404 
-        </h5>
-        <h4>
-            NOT FOUND
-        </h4>
+        <div v-for="(coin,i) in coins"
+        :key="i">
+            {{ coin.id }}
+        </div>
     </ViewContainer>
 </template>
 
